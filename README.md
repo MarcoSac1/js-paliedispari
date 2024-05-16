@@ -5,7 +5,9 @@
 
 Chiedere all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma
-Pari e Dispari
+
+
+<!-- Pari e Dispari -->
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
@@ -18,5 +20,5 @@ Dichiariamo chi ha vinto.
 - creo una variabile dove faccio inserire al utente una parola 
 - creo una 'function' per verificare se la parola e dispari o pari
 - creo un altra variabile dove chiedo al utente di inserire un numero da 1 a 5
-- 
+- genero un numero randomico da 1 a 5
 -->

@@ -25,8 +25,9 @@ Dichiariamo chi ha vinto.
 <!-- workflow -->
 
 <!-- 
-- creo una variabile dove faccio inserire al utente una parola 
-- creo una 'function' per verificare se la parola e dispari o pari
-- creo un altra variabile dove chiedo al utente di inserire un numero da 1 a 5
-- genero un numero randomico da 1 a 5
--->
+- creo una variabile dove faccio scegliere al utente pari o dispari 
+- faccio inserire un numero da 1 a 5
+- creo una function che genera un numero randomico da 1 a 5
+- li sommo e controllo se sono pari o dispari
+- dichiaro con un if il vincitore 
+--->

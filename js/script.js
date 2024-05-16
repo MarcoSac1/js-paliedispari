@@ -1,16 +1,13 @@
 // creo una variabile dove faccio inserire al utente una parola 
 
 const parolaUtente = prompt('type a word');
-// console.log(userWord);
 
-
-// let parolaUtente = "antonio"  // Prompt;
-
+// creo una funzione dove inverto la parola inserita dal Utente
 function reverseWord(userParola) {    
     return userParola.split('').reverse().join('');
 }
 
-let parolaAlContrario = reverseWord('parolaUtente');
+let parolaAlContrario = reverseWord(parolaUtente);
 console.log(parolaAlContrario);
 
 
@@ -22,5 +19,5 @@ if(parolaUtente === parolaAlContrario){
     console.log('palindroma');
 
 }else{
-    console.log('sono  diverse');
+    console.log('non palindroma');
 }

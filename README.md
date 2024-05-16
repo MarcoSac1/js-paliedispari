@@ -5,7 +5,15 @@
 
 Chiedere all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma
-
+<!-- 
+- creo una variabile dove faccio inserire al utente una parola 
+- creo una funzione dove inverto la parola inserita dal Utente
+-  se la parola inserita dall'utente (parolaUtente) e la sua versione al contrario        
+  (parolaAlContrario) sono UGUALI,
+  ALLORA la parola è palindroma
+   ALTRIMENTI no
+- 
+-->
 
 <!-- Pari e Dispari -->
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.

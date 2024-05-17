@@ -28,6 +28,6 @@ Dichiariamo chi ha vinto.
 - creo una variabile dove faccio scegliere al utente pari o dispari 
 - faccio inserire un numero da 1 a 5
 - creo una function che genera un numero randomico da 1 a 5
-- li sommo e controllo se sono pari o dispari
-- dichiaro con un if il vincitore 
+- creo una funzione che controlla se il numero ricevuto e pari o dispari
+
 --->

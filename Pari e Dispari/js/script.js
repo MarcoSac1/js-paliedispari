@@ -15,13 +15,28 @@ while(Number.isNaN(userNumber)|| userNumber < 1 || userNumber > 5){
 }
 console.log(`L'utente ha scelto ${oddOrEven}, e il numero ${userNumber}`);
 
+
+const aINumber = getRandomInt(1, 5);
+const sum = userNumber + aINumber;
+console.log(`Il computer ha generato ${aINumber}, e la somma dei due numeri e' ${sum}`);
+
 //  creo una funzione che genera un numero tra minimo e massimo 
-// function getRandomInt(min, max) {
-//     const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
-//     return randomNumber;
-// }
+function getRandomInt(min, max) {
+    const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
+    return randomNumber;
+}
 
+// creo una funzione che  controlla se il numero fornito e dispari
+function isOdd(Number) {
+    return number % 2 === 1;
+    
+}
 
+// creo una funzione che  controlla se il numero fornito e pari
+function isEven(Number) {
+    return number % 2 === 0;
+    
+}
 
 
 

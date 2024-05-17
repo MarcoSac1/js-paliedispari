@@ -26,8 +26,9 @@ Dichiariamo chi ha vinto.
 
 <!-- 
 - creo una variabile dove faccio scegliere al utente pari o dispari 
-- faccio inserire un numero da 1 a 5
+- con un ciclo dove controllo che l'utene inseririsca correttamente 'pari o dispari'
+- faccio inserire un numero tra 1 e 5
+- chiedo al utente di inserire un numero e stampo il risultato in console
 - creo una function che genera un numero randomico da 1 a 5
 - creo una funzione che controlla se il numero ricevuto e pari o dispari
-
 --->

@@ -20,26 +20,37 @@ const aINumber = getRandomInt(1, 5);
 const sum = userNumber + aINumber;
 console.log(`Il computer ha generato ${aINumber}, e la somma dei due numeri e' ${sum}`);
 
+const result = pariODispari(sum);
+
+if(result === oddOrEven){
+    console.log('L utente vince');
+    } else {
+        console.log('Il computer vince');
+}
+
+
 //  creo una funzione che genera un numero tra minimo e massimo 
 function getRandomInt(min, max) {
     const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
     return randomNumber;
 }
 
+function pariODispari(number) {
+    if(number % 2 === 0){
+        return 'pari';
+    } else{
+        return 'dispari';
+    }
+}
+
 // creo una funzione che  controlla se il numero fornito e dispari
 function isOdd(Number) {
+    number = Number.parseInt(number, 10);
     return number % 2 === 1;
-    
 }
 
 // creo una funzione che  controlla se il numero fornito e pari
 function isEven(Number) {
+    number = Number.parseInt(number, 10);
     return number % 2 === 0;
-    
 }
-
-
-
-
-// - creo una function che genera un numero randomico da 1 a 5
-// - creo una funzione che controlla se il numero ricevuto e pari o dispari
